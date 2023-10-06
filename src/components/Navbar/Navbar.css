@@ -1,0 +1,154 @@
+nav{
+    display: flex;  
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: #6970cdc2; */
+    background-color: aliceblue;
+    padding: 20px 50px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.6);
+    height: 2rem;
+    position: fixed;
+    z-index: 1;
+    width: 100vw;
+    height: 5rem; 
+
+/* 
+    display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: fixed;
+	width:100%;
+	z-index: 1;
+    background-color: rgb(137, 137, 228);
+    transition: 0.6s ease-in-out;
+    padding: 20px 50px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.6);
+    height: 2rem;  */
+    
+}
+
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#navbar li{
+    list-style: none;
+    padding: 0 20px;
+    position: relative;
+}
+
+#navbar li a{
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: bold;
+    color:black;
+    transition: 0.3s ease-in-out;
+}
+
+#navbar li a:hover,
+#navbar li a.active{
+    color: rgba(17, 17, 179, 0.9);
+}
+
+#navbar li a:hover::after,
+#navbar li a.active::after
+{
+    content: "";
+    width: 30%;
+    height: 2px;
+    background: green;
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+}
+
+#mobile{
+    display: none;
+}
+
+#mobile i{
+    color: black;
+    
+}
+
+.img{
+    height: 3rem;
+}
+
+.img1{
+    height: 3.5rem;
+}
+
+#dropmenu{
+        display: none;
+}
+
+#dropmenu li a.click{
+    position: absolute;
+    background-color: aqua;
+    margin-top: 2rem;
+    margin-left: 1px;
+    height: max-content;
+}
+
+
+ 
+@media screen and (max-width:769px) {
+
+    nav{
+        height: 4rem; 
+    }
+
+    #navbar{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        background-color: aliceblue;
+        top:60px;
+        position: fixed;
+        right: 0px;
+        width: 300px;
+        /* background: #6970cdc2; */
+        height: max-content;
+        box-shadow: 0 40px 60px rgba(0,0,0,0.1);
+        padding: 40px 0 0 10px;
+        transition: 0.3s ease-in-out;
+        z-index: 1;
+    }
+
+    #navbar.active{
+        right: -300px;
+    }
+
+    #mobile{
+        display: block;
+    }
+
+    #mobile i{
+        font-size: 30px;
+        cursor: pointer;
+    }
+
+    #navbar li{
+        margin-bottom: 25px;
+    }
+
+    .img{
+        height: 2.4rem;
+    }
+    
+    .img1{
+        height: 2.8rem;
+        
+    }
+
+    
+
+}
+
+
+
+

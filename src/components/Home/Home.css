@@ -1,0 +1,11 @@
+#home{
+    width:100%;
+    height: 80vh;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5m4NuUtYZuEpVe9KDyk7Zu5aWmn9IdlPCCw&usqp=CAU'); */
+    background-image: url('');
+    z-index: 0;
+    background-image: linear-gradient( 108deg , #fe931c, #ff5f00) !important;
+}
