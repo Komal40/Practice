@@ -7,7 +7,7 @@ import './Nav.css';
 export default function Nav() {
   return (
    
-    <nav class="navbar navbar-expand-lg navbar-dark bg-info">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-info nav">
     <div class="container-fluid">
     <img className='img1' src='https://cellustechindia.com/img/cti_new_logo2.png' alt='logo'/>
     <a class="navbar-brand" href="#">
@@ -120,14 +120,14 @@ export default function Nav() {
             <a class="nav-link" href="#">IOT Solutions</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Consulting Services</a>
+            <a class="nav-link" href="#consult_services">Consulting Services</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Electrical Products</a>
+            <a class="nav-link" href="#ele_products">Electrical Products</a>
           </li>
         </ul>
 
-        <button type="button" class="btn btn-primary">Reach Us</button>
+        <button type="button" class="btn btn-primary button">Reach Us</button>
         
       </div>
     </div>

@@ -1,0 +1,28 @@
+.heading_products{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-weight: 900px;
+    /* background-color: rgb(224, 224, 159); */
+    margin: 1.5rem;
+}
+
+
+.button_product{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.button_products{
+    display: flex;
+    justify-content: space-evenly;
+    
+
+}
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    
+}

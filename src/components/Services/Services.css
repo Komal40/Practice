@@ -1,0 +1,7 @@
+.services{
+    
+    display: flex;
+    flex-wrap: wrap;
+    width: 18rem;
+    background-color: rgb(238, 229, 229);
+}

@@ -1,0 +1,101 @@
+.wpb_button, .wpb_content_element, ul.wpb_thumbnails-fluid>li {
+    margin-bottom: 35px;
+}
+.page-id-12418 .card {
+    width: 100% !important;
+    border-top-left-radius: 16px !important;
+    border-top-right-radius: 16px !important;
+    border-bottom-left-radius: 16px !important;
+    border-bottom-right-radius: 16px !important;
+}
+
+.page-id-12418 .card {
+    min-height: 430px !important;
+    border-radius: 12px;
+    box-shadow: 0 1px 20px 0 rgba(0, 0, 0, 0.1);
+    background-color: transparent !important;
+}
+@media (max-width: 700px){
+.page-id-12418 .card {
+    min-height: 400px !important;
+}
+}
+@media (max-width: 768px){
+.page-id-12418 .card {
+    min-height: 777px !important;
+}
+}
+
+.page-id-12418 .card a {
+    text-decoration: none !important;
+}
+.card-img {
+    width: 100%;
+    border-top-left-radius: 16px !important;
+    border-top-right-radius: 16px !important;
+    height: 165px !important;
+    object-fit: cover;
+}
+@media (max-width: 700px){
+.page-id-12418 .card-img {
+    height: 205px !important;
+}
+}
+
+@media (max-width: 1024px){
+.page-id-12418 .card-img {
+    min-height: 150px !important;
+}
+}
+.page-id-12418 .card-img {
+    width: 100% !important;
+    min-height: 165px !important;
+}
+.card-body {
+    margin-top: 24px;
+    padding-bottom: 3rem !important;
+    padding: 0px !important;
+}
+@media (max-width: 1024px){
+.page-id-12418 .card-title {
+    padding: 0px 10px !important;
+    font-size: 20px !important;
+}
+}
+element.style {
+    margin-left: 8px;
+    height: 28px;
+    width: 28px;
+}
+@media (max-width: 700px){
+.page-id-12418 .pictogramcar, .page-id-12418 .pictogramiot {
+    height: 20px !important;
+    width: 20px !important;
+}
+}
+.card img {
+    height: 200px;
+    width: 300px;
+}
+@media (max-width: 1024px){
+.card-title img {
+    width: 15px;
+    height: 15px;
+}
+}
+.card-subtitle {
+    margin-top: -0.375rem;
+    margin-bottom: 0;
+}
+.card-subtitle {
+    font-family: 'Rubik' !important;
+    font-size: 16px;
+    font-weight: 400 !important;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: #1e1e1e;
+    word-wrap: break-word;
+    padding: 0rem 15px;
+}

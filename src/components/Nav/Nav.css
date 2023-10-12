@@ -8,6 +8,15 @@
 }
 
 
+.nav{
+	background-color: transparent;
+    transition: 0.6s ease-in-out;
+	position: fixed;
+}
+
+.button{
+	margin-right: 10%;
+}
 
 /* ============ desktop view ============ */
 @media all and (min-width: 992px) {
